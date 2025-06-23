@@ -25,6 +25,12 @@ p {
     text-align: center;
 }
 
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
 .menu {
     width: 80%;
     max-width: 500px;
@@ -55,3 +61,28 @@ p {
     width: 25%;
 }
 
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+}
