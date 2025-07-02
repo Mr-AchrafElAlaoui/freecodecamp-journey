@@ -1,10 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>FreeCodeCamp Survey Form</title>
-    </head>
-    <body>
 
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>FreeCodeCamp Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <fieldset>
+            <lable id="name-label" for="name">Name
+                <input id="name" type="text" placeholder="Entre your name" required>
+            </lable>
+            <lable id="email-label" for="email">Email
+                <input id="email" type="email" placeholder="Entre your email" required>
+            </lable>
+            <lable id="Age-label" for="age">Age (optional)
+                <input id="age" type="number" min="13" max="120" placeholder="Entre you age" required>
+            </lable>
+            <label for="dropdown">Which option best describes your current role?
+                <select id="dropdown">
+                    <option value="1">Student</option>
+                    <option value="2">Full time job</option>
+                    <option value="3">Full time Learner</option>
+                    <option value="4">Prefer not to say</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Would you recommend freeCodeCamp to a friend?</legend>
+            <label for="definitely-recommend"><input id="definitely-recommend" type="radio" name="recommend-friend"
+                    value="definitely"> Definitely</label>
+            <label for="maybe-recommend"><input id="maybe-recommend" type="radio" name="recommend-friend" value="maybe">
+                Maybe</label>
+            <label for="notsure-recommend"><input id="notsure-recommend" type="radio" name="recommend-friend"
+                    value="not-sure"> Not sure</label>
+        </fieldset>
+        <fieldset>
+            <legend>What would you like to see improved? (Check all that apply)</legend>
+            <label for="front-end"><input id="front-end" type="checkbox" name="improved-project"
+                    value="front-end">Front-end Projects</label>
+            <label for="front-end"><input id="front-end" type="checkbox" name="improved-project"
+                    value="front-end">Back-end Projects</label>
+            <label for="front-end"><input id="front-end" type="checkbox" name="improved-project" value="front-end">Data
+                Visualization</label>
+            <label for="front-end"><input id="front-end" type="checkbox" name="improved-project"
+                    value="front-end">Challenges</label>
+            <label for="front-end"><input id="front-end" type="checkbox" name="improved-project" value="front-end">Open
+                Source Community</label>
+            <label for="front-end"><input id="front-end" type="checkbox" name="improved-project"
+                    value="front-end">Gitter help rooms</label>
+            <label for="suggestion">Any comments or suggestions?
+                <textarea id="suggestion" rows="3" cols="30" placeholder="Enter your comment here ..."></textarea>
+            </label>
+        </fieldset>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+
+</body>
+
 </html>
