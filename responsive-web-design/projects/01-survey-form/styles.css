@@ -50,3 +50,22 @@ legend {
     margin-bottom: 1em;
 }
 
+input,
+select,
+textarea,
+button {
+    width: 100%;
+    min-height: 2em;
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    border-radius: 0.25em;
+    margin-top: 0.5em;
+    padding-left: 0.3em;
+}
+
+.inline {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+}
