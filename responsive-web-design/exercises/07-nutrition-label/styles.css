@@ -61,6 +61,10 @@ p {
     justify-content: flex-end;
 }
 
+.indent {
+    margin-left: 1em;
+}
+
 .calories-info {
     display: flex;
     justify-content: space-between;
