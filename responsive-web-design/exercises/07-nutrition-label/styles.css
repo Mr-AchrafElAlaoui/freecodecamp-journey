@@ -57,6 +57,10 @@ p {
     font-size: 0.85rem;
 }
 
+.right{
+    justify-content: flex-end;
+}
+
 .calories-info {
     display: flex;
     justify-content: space-between;
