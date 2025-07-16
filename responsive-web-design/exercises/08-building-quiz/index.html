@@ -16,7 +16,7 @@
         <h1>HTML/CSS Quiz</h1>
         <nav>
             <ul>
-                <li><a href="">INFO</a></li>
+                <li><a href="#student-info">INFO</a></li>
                 <li><a href="">HTML</a></li>
                 <li><a href="">CSS</a></li>
             </ul>
@@ -32,16 +32,36 @@
                 </div>
                 <div class="info">
                     <label for="student-email">Email :</label>
-                    <input id="student-email" type="email" name="student-email">
+                    <input id="student-email" type="email" name="student-email" />
                 </div>
                 <div class="info">
                     <label for="birth-day">Date of Birth :</label>
-                    <input id="birth-day" type="date" name="birth-day">
+                    <input id="birth-day" type="date" name="birth-day" />
                 </div>
             </section>
-            <section>
-                <h2></h2>
-                <div></div>
+            <section role="region" aria-labelledby="html-questions">
+                <h2 id="html-questions">HTML</h2>
+                <div class="question-block">
+                    <h3><sapn class="sr-only">Question</sapn>1</h3>
+                    <fieldset class="question" name="html-question-one">
+                        <legend>The legend element represents a caption for the content of its parent fieldset element</legend>
+                        <ul class="answer-list">
+                            <li>
+                                <label for="q1-a1">
+                                    <input id="q1-a1" type="radio" name="q1" value="true" />True
+                                </label>
+                                
+                            </li>
+                            <li>
+                                <label fro="q1-a2">
+                                    <input id="q1-a2" type="radio" name="q1" value="false" />False
+                                </label>
+                                
+                            </li>
+                        </ul>
+
+                    </fieldset>
+                </div>
                 <div></div>
             </section>
             <section>
