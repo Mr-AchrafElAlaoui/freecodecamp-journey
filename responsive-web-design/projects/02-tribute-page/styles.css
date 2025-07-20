@@ -30,3 +30,22 @@ body {
 #img-caption {
     margin: 20px 0 0 0;
 }
+
+h2 {
+    margin: 60px 0;
+}
+
+ul {
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto 60px auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ul > li {
+    line-height: 1.5;
+    margin: 10px 0;
+}
