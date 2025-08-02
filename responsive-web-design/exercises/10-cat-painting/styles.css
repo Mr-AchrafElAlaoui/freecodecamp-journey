@@ -19,3 +19,33 @@ body {
     border: 1px solid #000;
     border-radius: 46%;
 }
+
+.cat-ear-left {
+    position: absolute;
+    top: -26px;
+    left: -31px;
+    z-index: 1;
+    transform: rotate(-45deg);
+    height: 0;
+    width: 0;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+}
+
+.cat-ear-right {
+    position: absolute;
+    top: -26px;
+    left: 164px;
+    z-index: 1;
+    transform: rotate(45deg);
+    height:0;
+    width: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+}
