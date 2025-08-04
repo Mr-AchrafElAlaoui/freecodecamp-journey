@@ -33,9 +33,3 @@ html {
     border-radius: 0 0 3px 3px;
 
 }
-
-.key.black--key::before{
-    content: "=";
-    width: 10px;
-    height: 10px;
-}
