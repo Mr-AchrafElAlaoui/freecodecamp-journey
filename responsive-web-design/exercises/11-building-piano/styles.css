@@ -52,7 +52,7 @@ html {
   top: 23px;
 }
 
-@medio (max-width: 768px) {
+@media (max-width: 768px) {
     #piano {
         width: 358px;
     }
