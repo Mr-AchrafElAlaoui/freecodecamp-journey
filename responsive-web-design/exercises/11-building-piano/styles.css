@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
 }
+*,
 *::after,
 *::before {
     box-sizing: inherit;
@@ -26,6 +27,7 @@ html {
 
 .key {
     background-color: #ffffff;
+    position: relative;
     width: 41px;
     height: 175px;
     float: left;
@@ -35,11 +37,17 @@ html {
 }
 
 .key.black--key::after {
-    background-color: #000;
-    content: "";
+    background-color: #1d1e22;
+    content: " ";
     position: absolute;
     left: -18px;
-    width:32px;
+    width: 32px;
     height: 100px;
     border-radius: 0 0 3px 3px;
+}
+
+.logo {
+  width: 200px;
+  position: absolute;
+  top: 23px;
 }
