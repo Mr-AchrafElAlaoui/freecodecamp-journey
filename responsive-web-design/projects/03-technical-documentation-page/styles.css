@@ -20,6 +20,10 @@ p {
   margin-bottom: 1rem;
 }
 
+section > p {
+  padding-left: 1rem;
+}
+
 ul {
   padding-left: 4rem;
 }
