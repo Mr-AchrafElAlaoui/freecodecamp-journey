@@ -35,3 +35,38 @@ code {
   margin: 0 0 1rem 2rem ;
   font-size: 0.75rem;
 }
+
+#navbar {
+  min-width: 300px;
+  height: 100%;
+  float:left;
+  position: fixed;
+  top:0;
+  left: 0;
+  border-right: 2px solid #000;
+  background: #fff;
+}
+#navbar h1 {
+  font-size: 1.75rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+#navbar ul {
+  height: 90%;
+  overflow: auto;
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+
+#navbar ul li {
+  border-top: 1px solid #333;
+  padding: 0.75rem 1.5rem;
+  margin: 0;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}
