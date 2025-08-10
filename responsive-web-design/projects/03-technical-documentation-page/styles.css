@@ -70,3 +70,10 @@ code {
   text-decoration: none;
   color: #333;
 }
+
+#main-doc {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  padding: 3rem 2rem;
+}
