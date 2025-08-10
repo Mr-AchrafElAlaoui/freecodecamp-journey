@@ -20,7 +20,7 @@ p {
   margin-bottom: 1rem;
 }
 
-section > p {. /* article */
+section > p { /* article */
   padding-left: 1rem;
 }
 
