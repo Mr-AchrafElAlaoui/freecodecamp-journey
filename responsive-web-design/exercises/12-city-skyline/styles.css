@@ -21,6 +21,16 @@ body {
 
 }
 
+.sky {
+  background: radial-gradient(
+      closest-corner circle at 15% 15%,
+      #ffcf33,
+      #ffcf33 20%,
+      #ffff66 21%,
+      #bbeeff 100%
+    );
+}
+
 .background-buildings,
 .foreground-buildings {
     width: 100%;
